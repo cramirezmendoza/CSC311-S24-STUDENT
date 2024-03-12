@@ -3,7 +3,7 @@ package Lab7;
 public class LinkedQueue implements Queue{
     @Override
     public void add(int data) {
-
+//test
     }
 
     @Override

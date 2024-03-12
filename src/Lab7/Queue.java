@@ -1,5 +1,5 @@
 package Lab7;
-
+//test
 /**
  * This interface represents a queue data structure. It contains all the key methods that a queue should support.
  */

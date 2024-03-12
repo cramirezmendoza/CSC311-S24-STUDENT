@@ -3,7 +3,7 @@ package Lab7;
 public class LinkedStack implements Stack {
     @Override
     public void push(int data) {
-
+// test
     }
 
     @Override

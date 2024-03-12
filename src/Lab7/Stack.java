@@ -1,6 +1,6 @@
 package Lab7;
 
-
+//test
 
 /**
  * This is an interface for Stack data structure. It contains all the key methods that a stack should support.
