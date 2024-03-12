@@ -1,5 +1,5 @@
-package Lab7;
-//test
+package Lab7.common.com.usman.csudh.csc311.datastructures;
+
 /**
  * This interface represents a queue data structure. It contains all the key methods that a queue should support.
  */
