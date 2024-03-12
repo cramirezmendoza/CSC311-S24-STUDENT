@@ -1,9 +1,25 @@
 package Lab7;
 
 public class LinkedQueue implements Queue{
+    private int[] nums;
+    private int capacity;
+    private int left;
+    private int right;
+
+    public LinkedQueue(int size){
+        nums = new int[size];
+        capacity = 0;
+        left = 0;
+        right = -1;
+    }
     @Override
     public void add(int data) {
-//test
+        if(capacity == nums.length){
+            right = (right + 1) % nums.length;
+            nums[right] = data;
+            capacity++;
+        }
+
     }
 
     @Override
